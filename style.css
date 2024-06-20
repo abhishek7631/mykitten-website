@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px 8px rgb(38, 36, 36);
+}
+
+.logo img {
+  height: 60px;
+  width: 90px;
+  margin-left: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 50%;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu ul li:hover {
+  color: #f24572;
+  border-bottom: 3px solid #f24572;
+  cursor: pointer;
+}
+
+.menu ul li i {
+  padding-left: 5px;
+  position: relative;
+  bottom: 3px;
+}
+
+.head-img {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.contact-us button {
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: #f24572;
+  color: white;
+  border: none;
+  font-size: 16px;
+  position: relative;
+  left: 120px;
+  bottom: 120px;
+  cursor: pointer;
+}
+
+.whatsapp-icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #25d366;
+  position: fixed;
+  left: 1170px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.whatsapp-icon i {
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+  margin-left: 3px;
+}
+
+.head-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(55, 55, 55, 0.2);
+}
+
+.content h2 {
+  font-size: 30px;
+  color: #0cf;
+}
+
+.content h4 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.content p {
+  margin-top: 15px;
+  line-height: 1.7;
+}
+
+.content p span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.content h5 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.content h3 {
+  margin-top: 15px;
+  color: #0cf;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.content img {
+  height: 130px;
+  width: 250px;
+  margin-left: 150px;
+}
+
+.content-btn {
+  margin-left: 200px;
+}
+
+.btn {
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: #f24572;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.video-content iframe {
+  height: 300px;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+}
+
+.video-content h3 {
+  margin-top: 15px;
+}
+
+.video-content p {
+  margin-top: 15px;
+  line-height: 1.7;
+}
+
+.mykitten {
+  margin-top: 20px;
+  text-align: center;
+  color: #0cf;
+  font-size: 20px;
+}
+
+.mykitten-container {
+  height: 350px;
+  width: 100%;
+  background-color: #f24572;
+  background-image: url(https://mykitten.in/wp-content/uploads/2021/10/pattern4-2-1.png);
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.step-1 img {
+  margin-top: 15px;
+  margin-left: 120px;
+  height: 100px;
+  width: 100px;
+}
+
+.step-1 h3 {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.step-1 p {
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+.catteries h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 25px;
+  color: #0cf;
+  border-top: 1px solid rgba(55, 55, 55, 0.2);
+  padding-top: 20px;
+}
+
+.catteries-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.catteries-img img {
+  height: 250px;
+  width: 450px;
+}
+
+.catteries-img h4 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #0cf;
+  font-style: italic;
+}
+
+.btnn {
+  margin-top: 40px;
+  position: relative;
+  left: 600px;
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: #f24572;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.onlyimg {
+  margin-top: 20px;
+}
+.onlyimg img {
+  width: 97%;
+  margin-left: 20px;
+}
+
+.breeds {
+  text-align: center;
+  margin-top: 20px;
+  color: #0cf;
+  border-bottom: 1px solid rgba(55, 55, 55, 0.2);
+  padding-bottom: 10px;
+}
+
+.breeds-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.breeds-container p {
+  text-align: center;
+}
+
+/* .breeds-container-2 {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.Exotic img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.Bengal img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.Persian img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.Maine img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.Siamese img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.Ragdoll img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.British img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.Himalayan img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+footer {
+  margin-top: 60px;
+  height: 550px;
+  width: 100%;
+  background-color: #082b49;
+}
+
+footer img {
+  margin-left: 140px;
+  margin-top: 80px;
+}
+
+footer h3 {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+footer p {
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+}
+
+footer button {
+  margin-top: 40px;
+  margin-left: 550px;
+  background-color: #f24572;
+  height: 40px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+footer button:hover {
+  color: white;
+}
+
+.footer-2 {
+  background-color: #051c2f;
+}
+
+.footer-2 p {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
